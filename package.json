@@ -1,0 +1,15 @@
+{
+  "name": "dynamodb-dumper",
+  "version": "0.0.1",
+  "keywords": ["dynamodb", "aws", "dump", "export", "nodejs", "tool", "backup"],
+  "description": "Simple backup tool for Amazon DynamoDB using NodeJS",
+  "author": "Érycson Nóbrega <egdn2004@gmail.com>",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.642.0"
+  }
+}
